@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Today</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: large;
+        }
+        header img {
+            height: 100px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: left;
+            padding: 100px;
+            background-color: #f0f0f0;
+        }
+        .cta {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: black;
+            background-color: #b4b2b2de;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px; /* This line adds curved edges to the button */
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+        }
+        .hero .cta {
+            padding: 10px 20px;
+            font-size: large;
+            color: #080808;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .banner {
+            text-align: center;
+            padding: 50px;
+            background-color: #e0e0e0;
+        }
+        .banner h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .banner p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .banner .cta {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #000;
+            border: none;
+            cursor: pointer;
+        }
+        .what-we-do {
+            padding: 50px;
+            background-color: #fff;
+            text-align: center;
+            font-size: larger;
+        }
+        .what-we-do h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .what-we-do p {
+            font-size: 1.2em;
+            margin-bottom: 50px;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-size: larger;
+        }
+        .features div {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+            text-align: left;
+        }
+        .featured-section {
+            text-align: center;
+            padding: 50px;
+            background-color: #fff;
+        }
+        .featured-section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .featured-section p {
+            font-size: 1.2em;
+            margin-bottom: 50px;
+        }
+        .cards-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            width: 400px;
+            height: 500px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #1d1e1d;;
+            box-shadow: 0 -2px 4px rgba(244, 239, 239, 0.703);
+        }
+        footer div {
+            flex: 1;
+            padding: 10px;
+        }
+        footer h3 {
+            margin-bottom: 10px;
+        }
+        footer p, footer a {
+            margin: 5px 0;
+            color: #fffdfd;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.jpg" alt="Logo">
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <button class="cta">Call to action</button>
+</header>
+
+<div class="hero">
+    <h1>The future of web design, today</h1>
+    <p>The future of web design, today</p>
+    <button class="cta">Call to action</button>
+</div>
+
+<div class="banner">
+    <h2>Don't forget to grab this one, it's free!</h2>
+    <p>Download the Ultimate con tomate guide.</p>
+    <button class="cta">Call to action</button>
+</div>
+
+<div class="what-we-do">
+    <h2>What we do</h2>
+    <p>Our mission is very important to the planet: we plant as many trees as possible. Can you figure out?</p>
+    <div class="features">
+        <div>
+            <input type="checkbox" checked disabled> We recycle everything we see
+        </div>
+        <div>
+            <input type="checkbox" checked disabled> We teach people how to reuse their stuff
+        </div>
+        <div>
+            <input type="checkbox" checked disabled> We believe in human beings as problem solvers
+        </div>
+    </div>
+</div>
+
+<div class="featured-section">
+    <h2>Featured things</h2>
+    <p>Our mission is very important to the planet: we plant as many trees as possible. Can you figure out?</p>
+    <div class="cards-container">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+    <div class="cards-container">
+        <div><h2>The future of web<br> 
+            design, today<br></h2>
+             The future of web design, today</div>
+        <div><h2>The future of web<br> 
+            design, today<br></h2>
+             The future of web design, today</div>
+        <div><h2>The future of web<br> 
+            design, today<br></h2>
+             The future of web design, today</div>
+    </div>
+</div>
+<footer>
+    <div>
+        <p>More Information</p>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <p>Our mission is very important to the planet: we plant as many trees as possible. Can you figure out?</p>
+    </div>
+    <div>
+        <p>Shop</p>
+        <a href="#">Contact</a>
+    </div>
+    <div>
+        <p>Stay in Contact</p>
+        <p>info@contact.com</p>
+        <p>+34 654 654 654</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
